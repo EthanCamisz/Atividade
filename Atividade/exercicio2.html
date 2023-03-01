@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade02</title>
+</head>
+<body>
+    <script>
+
+        let num1 = (prompt("Insira o primeiro número"))
+ 
+        let operacao = (prompt("Insira a operação em forma de texto, de soma ou subtração: "))
+ 
+        let num2 = (prompt("Insira o segundo número: "))
+ 
+ 
+         function teste(num1, num2, operacao){
+             
+             if(operacao == 'soma'){
+                 return num1 + num2
+             }else if(operacao == 'subtração'){
+                 return num1 - num2
+             }
+         }
+         document.write(teste(num1, num2, operacao))
+ 
+         // Assim que feitas as 3 variáveis, o usuário deve digitar o primeiro número, uma operação e em seguida terceiro número, assim como soliitado, a função teste serve para se o usuário colocasse a opção soma, o sistema iria retornar a soma do primeiro e o segundo número, se houvesse o caso dele inserir a opção subtração, o sistema iria retornar a subtração entre o primeiro e segundo número.
+     </script>
+</body>
+</html>
